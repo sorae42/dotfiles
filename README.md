@@ -4,6 +4,7 @@ Contain the customization I made for my Linux rice.
 # Included software and git repos
 - [Polybar Autohide](https://github.com/arkeane/polybar_autohide)
 - [Fulltime](https://github.com/skyventuree/fulltime)
+- [Rofi by adi1090x](https://github.com/adi1090x/rofi)
 
 [Oh-my-ZSH](https://ohmyz.sh/) must be manually installed.
 
