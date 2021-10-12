@@ -5,7 +5,7 @@ Contain the customization I made for my Linux rice.
 - [Polybar Autohide](https://github.com/arkeane/polybar_autohide)
 - [Fulltime](https://github.com/skyventuree/fulltime)
 
-`Oh-my-ZSH` must be manually installed.
+[Oh-my-ZSH](https://ohmyz.sh/) must be manually installed.
 
 # Installation
 You must use a AUR helper and install the following packages:
