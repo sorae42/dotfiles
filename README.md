@@ -23,5 +23,7 @@ dconf load /org/gnome/terminal/ < gnome-terminal-settings.dconf
 ```
 Make sure `dconf` is installed on your system.
 
+**NOTE:** Some username instance must be renamed (`sora` in this case), please double check if anything goes wrong.
+
 # License
 MIT.
