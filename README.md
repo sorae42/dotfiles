@@ -25,5 +25,3 @@ Make sure `dconf` is installed on your system.
 
 # License
 MIT.
-```
-```
