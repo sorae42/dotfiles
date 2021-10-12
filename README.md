@@ -25,5 +25,9 @@ Make sure `dconf` is installed on your system.
 
 **NOTE:** Some username instance must be renamed (`sora` in this case), please double check if anything goes wrong.
 
+# Borrowed configuration files
+[tam-carre dotfiles](https://github.com/tam-carre/dotfiles)
+[lucypoulton dotfiles](https://github.com/lucypoulton/dotfiles/)
+
 # License
 MIT.
