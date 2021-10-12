@@ -1,0 +1,3 @@
+#!/bin/sh
+# Open a Google Meet meeting on Firefox
+firefox https://meet.google.com/$1

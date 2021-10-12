@@ -1,0 +1,31 @@
+(defwindow clock
+  :monitor 0
+  :geometry (geometry :x "0%"
+                      :y "76%"
+                      :width "500px"
+                      :height "50px"
+                      :anchor "top center")
+  :stacking "bg"
+  :windowtype "dock"
+  :wm-ignore true
+  "It's ${clock}.")
+
+(defwindow greet
+  :monitor 0
+  :geometry (geometry :x "0%"
+                      :y "82%"
+                      :width "600px"
+                      :height "50px"
+                      :anchor "top center")
+  :stacking "bg"
+  :windowtype "dock"
+  :wm-ignore true
+  "${greeter}")
+
+(defpoll clock
+  :interval "30s"
+  `./ft`)
+
+(defpoll greeter
+  :interval "1m"
+  `./greeter.sh`)

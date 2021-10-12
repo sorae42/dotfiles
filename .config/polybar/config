@@ -1,0 +1,106 @@
+; ---
+; Lucy's Dotfiles
+; https://github.com/lucyy-mc/dotfiles
+; ---
+;
+; Polybar config
+
+; Set colour variables
+[col]
+bg = #ffffff
+fg = #000000
+sel = #99b8ff
+
+; Base bar that others inherit from
+[bar/common]
+background = ${col.bg}
+height = 26
+offset-x = 12
+offset-y = 12
+
+foreground = ${col.fg}
+
+override-redirect = true
+; wm-restack = bspwm
+
+; border with radius to match i3
+radius = 8
+border-size = 2
+border-color = #c22bd2
+
+; everything from here on is self explanatory
+
+font-0 = azukifontBi:size=12;3
+font-1 = FluentSystemIcons\-Regular:size=18;5 
+
+module-margin = 1
+padding = 1
+
+[bar/right]
+inherit = bar/common
+width = 500px
+modules-left = battery network
+modules-right = cpu ram date time
+offset-x = 100%:-524px
+
+[bar/placeholder]
+tray-position = center
+width = 500px
+modules-left = cpu
+
+[module/time]
+type = internal/date
+interval = 15
+time = %H:%M
+label = %time%
+
+[module/date]
+type = internal/date
+interval = 60
+date = %a %d %b
+label = %date%
+
+[module/cpu]
+type = internal/cpu
+interval = 1
+label = %percentage%%
+
+[module/ram]
+type = internal/memory
+interval = 2
+label = %gb_used%
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ACAD
+label-full = 
+label-charging = 
+
+format-discharging = <ramp-capacity>
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-5 = 
+ramp-capacity-6 = 
+ramp-capacity-7 = 
+ramp-capacity-8 = 
+ramp-capacity-9 = 
+
+[module/network]
+type = internal/network
+interface = wlp3s0
+interval = 3
+format-connected = <ramp-signal>
+
+label-disconnected = 
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+
+; vim: ft=dosini
+

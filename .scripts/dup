@@ -1,0 +1,8 @@
+#!/bin/sh
+# Duplicate a file
+
+if [[ $# -eq 0 ]]; then
+	echo "Usage: dup <filename>"
+else
+	cp $1 $1_duplicated
+fi

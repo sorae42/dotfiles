@@ -1,0 +1,84 @@
+# Terminal
+alt + Return
+	gnome-terminal
+
+# Powermenu
+alt + shift + e
+	~/.config/rofi/applets/android/powermenu.sh
+
+#App menu
+alt + d 
+	~/.config/rofi/launchers/misc/launcher.sh
+
+# Volumes
+XF86AudioRaiseVolume
+	~/.config/scripts/volume.sh up
+
+XF86AudioLowerVolume
+	~/.config/scripts/volume.sh down
+
+XF86AudioMute
+	~/.config/scripts/volume.sh mute
+
+# Brightness
+XF86MonBrightnessUp
+	brightnessctl s 5%+
+
+XF86MonBrightnessDown
+	brightnessctl s 5%-
+
+# Flameshot
+Print
+	flameshot gui
+
+# Player control
+XF86AudioPlay
+	playerctl play-pause
+
+XF86AudioNext
+	playerctl next
+
+XF86AudioPrev
+	playerctl previous
+
+# kill and close
+alt + shift + q
+	bspc node -c
+
+# bspwm window handling
+alt + shift + r
+	bspc wm -r && notify-send "BSPWM Restarted" "Configuration reloaded successfully."
+
+alt + space
+	bspc node -t "~"{fullscreen,floating,tiled}
+
+alt + {_,shift + }{1-6}
+	bspc {desktop -f, node -d} '^{1-6}'
+
+alt + shift + {Left,Right,Up,Down}
+	bspc node -z {right -10 0,right 10 0,bottom 0 -10,bottom 0 10}
+
+alt + ctrl + {Left,Right,Up,Down}
+	bspc node -v {-15 0,15 0,0 -15,0 15}
+
+alt + {_,super + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+# Run or raise
+alt + w
+		jumpapp firefox -C 
+
+alt + q
+		jumpapp discord -C 
+
+alt + t
+		jumpapp gnome-terminal -C
+
+# ROR: Terminal cli apps 
+alt + e 
+		run-or-raise 'name = "nvim"' jumpapp gnome-terminal
+
+alt + f 
+		run-or-raise 'name = "ranger"' gnome-terminal -- ranger
+
+
