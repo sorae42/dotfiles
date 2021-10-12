@@ -2,9 +2,10 @@
 Contain the customization I made for my Linux rice.
 
 # Included software and git repos
-- [Oh-My-ZSH](https://ohmyz.sh/)
 - [Polybar Autohide](https://github.com/arkeane/polybar_autohide)
 - [Fulltime](https://github.com/skyventuree/fulltime)
+
+`Oh-my-ZSH` must be manually installed.
 
 # Installation
 You must use a AUR helper and install the following packages:
@@ -20,7 +21,6 @@ Apply `gnome-terminal-settings.dconf` to GNOME-Terminal by
 ```
 dconf load /org/gnome/terminal/ < gnome-terminal-settings.dconf
 ```
-
 Make sure `dconf` is installed on your system.
 
 # License
