@@ -10,7 +10,7 @@ Contain the customization I made for my Linux rice.
 
 # Installation
 You must use a AUR helper and install the following packages:
-``bspwm sxhkd dunst nvim ranger cava eww neofetch rofi flameshot feh  picom-ibhagwan-git polybar-git pulseaudio-ctl ttf-fluentui-system-icons gnome-terminal``
+``bspwm sxhkd dunst nvim ranger cava eww neofetch rofi flameshot feh  picom-ibhagwan-git polybar-git pulseaudio-ctl ttf-fluentui-system-icons gnome-terminal betterlockscreen``
 
 Some packages can be replaced at will.
 
@@ -25,6 +25,8 @@ dconf load /org/gnome/terminal/ < gnome-terminal-settings.dconf
 Make sure `dconf` is installed on your system.
 
 **NOTE:** Some username instance must be renamed (`sora` in this case), please double check if anything goes wrong.
+
+**NOTE 2**: You need to reconfig some stuff to make it work properly. Life isn't that easy.
 
 # Borrowed configuration files
 [tam-carre dotfiles](https://github.com/tam-carre/dotfiles)
