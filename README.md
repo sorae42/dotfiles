@@ -1,13 +1,20 @@
 # dotfiles
 Contain the customization I made for my Linux rice.
 
-# Included software and git repos
+# Credit and Respect
 - [Polybar Autohide](https://github.com/arkeane/polybar_autohide)
 - [Fulltime](https://github.com/skyventuree/fulltime)
 - [Rofi by adi1090x](https://github.com/adi1090x/rofi) (only include my personal
 	references)
 
 [Oh-my-ZSH](https://ohmyz.sh/) must be manually installed.
+
+Wallpaper art by @iloli_i8g. [Click here](https://twitter.com/iloli_i8g/status/1417188835746729990) to see the original tweet.
+
+Configuration files from [tam-carre dotfiles](https://github.com/tam-carre/dotfiles) & [lucypoulton dotfiles](https://github.com/lucypoulton/dotfiles/).
+
+If you have problem with any content I re-uploaded here, feel free to create an
+Issue and I'll work it out immediately.
 
 # Installation
 You must use a AUR helper and install the following packages:
@@ -29,7 +36,5 @@ Make sure `dconf` is installed on your system.
 
 **NOTE 2**: You need to reconfig some stuff to make it work properly. Life isn't that easy.
 
-# Borrowed configuration files
-[tam-carre dotfiles](https://github.com/tam-carre/dotfiles) & [lucypoulton dotfiles](https://github.com/lucypoulton/dotfiles/)
 # License
 MIT.
