@@ -4,7 +4,8 @@ Contain the customization I made for my Linux rice.
 # Included software and git repos
 - [Polybar Autohide](https://github.com/arkeane/polybar_autohide)
 - [Fulltime](https://github.com/skyventuree/fulltime)
-- [Rofi by adi1090x](https://github.com/adi1090x/rofi)
+- [Rofi by adi1090x](https://github.com/adi1090x/rofi) (only include my personal
+	references)
 
 [Oh-my-ZSH](https://ohmyz.sh/) must be manually installed.
 
@@ -29,8 +30,6 @@ Make sure `dconf` is installed on your system.
 **NOTE 2**: You need to reconfig some stuff to make it work properly. Life isn't that easy.
 
 # Borrowed configuration files
-[tam-carre dotfiles](https://github.com/tam-carre/dotfiles)
-[lucypoulton dotfiles](https://github.com/lucypoulton/dotfiles/)
-
+[tam-carre dotfiles](https://github.com/tam-carre/dotfiles) & [lucypoulton dotfiles](https://github.com/lucypoulton/dotfiles/)
 # License
 MIT.
