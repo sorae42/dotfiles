@@ -17,8 +17,8 @@ If you have problem with any content I re-uploaded here, feel free to create an
 Issue and I'll work it out immediately.
 
 # Installation
-You must use a AUR helper and install the following packages:
-``bspwm sxhkd dunst nvim ranger cava eww neofetch rofi flameshot feh  picom-ibhagwan-git polybar-git pulseaudio-ctl ttf-fluentui-system-icons gnome-terminal betterlockscreen``
+You must use an AUR helper to install the following packages:
+``bspwm sxhkd dunst neovim ranger cava eww neofetch rofi flameshot feh  picom-ibhagwan-git polybar-git pulseaudio-ctl ttf-fluentui-system-icons gnome-terminal betterlockscreen``
 
 Some packages can be replaced at will.
 
