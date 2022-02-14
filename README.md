@@ -1,6 +1,8 @@
 # dotfiles
 Contain the customization I made for my Linux rice.
 
+![Desktop Preview](demos/preview.png "Preview")
+
 # Credit and Respect
 - [Polybar Autohide](https://github.com/arkeane/polybar_autohide)
 - [Fulltime](https://github.com/skyventuree/fulltime)
